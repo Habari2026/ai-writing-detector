@@ -247,16 +247,16 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-semibold mb-4">About</h3>
               <p className="text-gray-400 text-sm">
-                Created by Robert Merlo, EdTech veteran with 20+ years experience helping professionals communicate authentically and advance their careers.
+                Created by Robert Merlo, EdTech veteran with 20+ years of experience selling learning and development solutions to enterprise organizations around the globe.
               </p>
               <p className="text-gray-400 text-sm mt-2">
                 <a 
-                  href="https://www.linkedin.com/in/yourprofile" 
+                  href="https://www.linkedin.com/in/robertmerlo/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-indigo-400 hover:text-indigo-300"
                 >
-                  Connect on LinkedIn →
+                  Connect on LinkedIn using this link: →
                 </a>
               </p>
             </div>

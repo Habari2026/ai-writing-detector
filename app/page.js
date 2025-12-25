@@ -256,7 +256,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="text-indigo-400 hover:text-indigo-300"
                 >
-                  Connect on LinkedIn using this link: →
+                  Connect on LinkedIn →
                 </a>
               </p>
             </div>

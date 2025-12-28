@@ -219,8 +219,16 @@ const AIWritingDetector = () => {
               <div>
                 <p className="text-sm text-blue-900 font-medium mb-1">Educational Tool</p>
                 <p className="text-sm text-blue-800">
-                  This tool identifies common patterns in AI-generated text based on Wikipedia's "Signs of AI Writing" research.
-                  Use it to learn how to write more naturally and recognize AI tells in your own writing.
+                  This tool identifies common patterns in AI-generated text based on Wikipedia's{' '}
+                  <a 
+                    href="https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800 underline font-medium"
+                  >
+                    "Signs of AI Writing"
+                  </a>{' '}
+                  research. Use it to learn how to write more naturally and recognize AI tells in your own writing.
                 </p>
               </div>
             </div>
@@ -329,8 +337,16 @@ const AIWritingDetector = () => {
         <div className="bg-white rounded-lg shadow-xl p-6">
           <h2 className="text-xl font-bold text-gray-800 mb-3">About This Tool</h2>
           <p className="text-sm text-gray-700 mb-3">
-            This educational tool is based on Wikipedia's comprehensive research document "Signs of AI Writing,"
-            which catalogs patterns observed across thousands of instances of AI-generated text. The patterns
+            This educational tool is based on Wikipedia's comprehensive research document{' '}
+            <a 
+              href="https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-600 hover:text-indigo-800 underline"
+            >
+              "Signs of AI Writing"
+            </a>
+            , which catalogs patterns observed across thousands of instances of AI-generated text. The patterns
             identified here are statistically overrepresented in LLM outputs compared to human writing.
           </p>
           <p className="text-sm text-gray-700 mb-3">

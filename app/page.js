@@ -138,8 +138,16 @@ export default function Home() {
               <Users className="w-12 h-12 text-indigo-600 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Educational Focus</h3>
               <p className="text-gray-600">
-                Based on Wikipedia's comprehensive "Signs of AI Writing" research covering 
-                thousands of analyzed texts.
+                Based on Wikipedia's comprehensive{' '}
+                <a 
+                  href="https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-indigo-600 hover:text-indigo-800 underline"
+                >
+                  "Signs of AI Writing"
+                </a>{' '}
+                research covering thousands of analyzed texts.
               </p>
             </div>
           </div>

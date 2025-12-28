@@ -181,44 +181,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Email Capture CTA */}
-      <section className="py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-lg shadow-xl p-12 text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Get Writing Tips & Updates
-            </h2>
-            <p className="text-xl text-gray-600 mb-8">
-              Join professionals learning to communicate more authentically
-            </p>
-            <form 
-              action="https://formspree.io/f/YOUR_FORM_ID" 
-              method="POST"
-              className="max-w-md mx-auto"
-            >
-              <div className="flex gap-2">
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Enter your email"
-                  required
-                  className="flex-1 px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-indigo-500 focus:outline-none"
-                />
-                <button
-                  type="submit"
-                  className="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors font-semibold whitespace-nowrap"
-                >
-                  Sign Up
-                </button>
-              </div>
-              <p className="text-sm text-gray-500 mt-3">
-                No spam. Unsubscribe anytime. Your email is never shared.
-              </p>
-            </form>
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
